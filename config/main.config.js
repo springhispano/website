@@ -1,11 +1,11 @@
 var config = {
     countdown: {
         year: 2015,
-        month: 6,
-        day: 8,
-        hour: 12,
-        minute: 12,
-        second: 21
+        month: 9,
+        day: 14,
+        hour: 10,
+        minute: 00,
+        second: 00
     },
 
     subscription_form_tooltips: {
