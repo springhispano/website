@@ -50,7 +50,8 @@
             <a href="/">Home</a>
           </li>
           {{ range .Site.Menus.main }}
-            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-111"><a href="{{.URL}}"> {{ .Name }} </a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-111"><a href="{{.URL}}"> {{ .Name }} </a>
+            </li>
           {{end}}
         </ul>
       </nav>
@@ -70,12 +71,26 @@
       </div>
     </section>
     -->
+
+    <section id="seccions-2" class="widget widget_recent_entries">
+      <h2 class="widget-title">Sections</h2>
+      <ul>
+        {{ range .Site.Sections }}
+          <li>
+            <a href="">{{ . }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+
     <section id="recent-posts-2" class="widget widget_recent_entries">
       <h2 class="widget-title">Recent Posts</h2>
       <ul>
-        <li>
-          <a href="">Post title</a>
-        </li>
+        {{ range .Site.Pages}}
+          <li>
+            <a href="">{{ .Title }}</a>
+          </li>
+        {{ end }}
       </ul>
     </section>
 
