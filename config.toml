@@ -1,0 +1,8 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "es-mx"
+title = "SpringHispano.org"
+theme = "poet"
+
+[params]
+  tagline = "Spring Framework para la comunidad hispana"
+  twitter = "SpringHispano"
