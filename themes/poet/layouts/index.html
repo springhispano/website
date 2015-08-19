@@ -1,26 +1,71 @@
 {{ partial "head.html" . }}
-<body id="poet" class="wordpress ltr en en-us child-theme multisite blog-44 y2015 m08 d14 h19 friday logged-out plural home blog">
+  <body id="poet" class="wordpress ltr en en-us child-theme multisite blog-44 y2015 m08 d14 h19 friday logged-out plural home blog">
 
-{{ partial "sidebar.html" . }}
+  {{ partial "sidebar.html" . }}
+  <a class="skip-content" href="#main">Skip to content</a>
 
-    <div class="content container">
-<div class="posts">
-
-      {{ range .Data.Pages }}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ .Permalink }}">
-        {{ .Title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-
-    {{ .Content }}
-  </div>
-  {{ end }}
-</div>
-</div>
-
+    <!--div class="content container">
+      <div class="posts">
+        {{ range .Data.Pages }}
+        <div class="post">
+          <h1 class="post-title">
+            <a href="{{ .Permalink }}">
+              {{ .Title }}
+            </a>
+          </h1>
+          <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+            {{ .Content }}
+        </div>
+        {{ end }}
+      </div>
+    </div-->
+    <div id="overflow-container" class="overflow-container">
+      <div class="max-width">
+        <section id="main" class="main" role="main">
+          <div class="entry post publish author-drop-live-demo post-44 format-standard has-post-thumbnail sticky category-cooking category-news post_tag-blogging post_tag-funny post_tag-new">
+            <span class="sticky-status">Featured Post</span>  
+            <div class='featured-image' style="background-image: url('https://www.competethemes.com/poet-live-demo/wp-content/uploads/sites/44/2015/02/girl-desert.jpg')">
+              <a href='https://www.competethemes.com/poet-live-demo/2015/02/10/four-stunning-new-layouts/'>An Unlikely Meeting</a>
+            </div>
+            <article>
+              <div class='post-header'>
+                <h1 class='post-title'>
+                  <a href="https://www.competethemes.com/poet-live-demo/2015/02/10/four-stunning-new-layouts/">An Unlikely Meeting</a>
+                </h1>
+                <span class="post-meta">
+                  Published by <a href='https://www.competethemes.com/poet-live-demo/author/drop-live-demo/'>Ben Sibley</a> on <a href='https://www.competethemes.com/poet-live-demo/2015/02/'>February 10, 2015</a>
+                </span>
+              </div>
+              <div class="post-content">
+                <p>Nam auctor a purus vel venenatis. Quisque magna nibh, cursus ac nisl nec, porta porttitor arcu. Nam sapien magna, semper ut lectus nec, fermentum rutrum&#8230;</p>
+                <p>
+                  <a class='more-link' href='https://www.competethemes.com/poet-live-demo/2015/02/10/four-stunning-new-layouts/'>Continue reading
+                    <span class='screen-reader-text'>An Unlikely Meeting</span>
+                  </a>
+                </p>
+              </div>
+            </article>
+            <article>
+              <div class='post-header'>
+                <h1 class='post-title'>
+                  <a href="https://www.competethemes.com/poet-live-demo/2015/02/10/four-stunning-new-layouts/">An Unlikely Meeting</a>
+                </h1>
+                <span class="post-meta">
+                  Published by <a href='https://www.competethemes.com/poet-live-demo/author/drop-live-demo/'>Ben Sibley</a> on <a href='https://www.competethemes.com/poet-live-demo/2015/02/'>February 10, 2015</a>
+                </span>
+              </div>
+              <div class="post-content">
+                <p>Nam auctor a purus vel venenatis. Quisque magna nibh, cursus ac nisl nec, porta porttitor arcu. Nam sapien magna, semper ut lectus nec, fermentum rutrum&#8230;</p>
+                <p>
+                  <a class='more-link' href='https://www.competethemes.com/poet-live-demo/2015/02/10/four-stunning-new-layouts/'>Continue reading
+                    <span class='screen-reader-text'>An Unlikely Meeting</span>
+                  </a>
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
