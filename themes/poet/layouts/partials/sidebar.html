@@ -1,7 +1,7 @@
 <div id="main-sidebar" class="main-sidebar">
   <header class="site-header" id="site-header" role="banner">
     <div id="title-container" class="title-container">
-      <div id="site-avatar" class="site-avatar" style="background-image: url('https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-07-18/7876620567_01501074b2903b39ace5_68.jpg')">
+      <div id="site-avatar" class="site-avatar" style='background-image: url("{{ with .Site.Params.avatar }}{{.}}{{ else }}{{end}}")'>
       </div>
       <div class="container">
         <h1 id='site-title' class='site-title'>
@@ -14,35 +14,9 @@
       <span class="screen-reader-text">open primary menu</span>
       <i class="fa fa-bars"></i>
     </button>
-    <div class='social-media-icons'>
-      <ul>
-        <li>
-          <a class="github" target="_blank" href="http://github.com/springhispano">
-            <i class="fa fa-github-square" title="Github"></i>
-          </a>
-        </li>
-        <li>
-          <a class="slack" target="_blank" href="http://slack.springhispano.org">
-            <i class="fa fa-slack" title="Slack"></i>
-          </a>
-        </li>
-        <li>
-          <a class="twitter" target="_blank" href="http://twitter.com/springhispano">
-            <i class="fa fa-twitter-square" title="Twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a class="facebook" target="_blank" href="https://www.facebook.com/groups/155793886960/">
-            <i class="fa fa-facebook-square" title="Facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a class="vimeo" target="_blank" href="https://vimeo.com/springhispano">
-            <i class="fa fa-vimeo-square" title="Vimeo"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
+    
+    {{ partial "social_media.html" . }}
+
     <div id="menu-primary" class="menu-container menu-primary" role="navigation">
       <nav class="menu">
         <ul id="menu-primary-items" class="menu-primary-items">
@@ -50,8 +24,8 @@
             <a href="/">Home</a>
           </li>
           {{ range .Site.Menus.main }}
-            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-111"><a href="{{.URL}}"> {{ .Name }} </a>
-            </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-111"><a href="{{.URL}}"> {{ .Name }} </a>
+          </li>
           {{end}}
         </ul>
       </nav>
@@ -59,77 +33,44 @@
   </header>
 
   <aside class="sidebar sidebar-primary" id="sidebar-primary" role="complementary">
-    <!--
-    <section id="search-2" class="widget widget_search">
-      <h2 class="widget-title">Search</h2>
-      <div class='search-form-container'>
-        <form role="search" method="get" class="search-form" action="">
-          <label class="screen-reader-text" for="search-field">Search</label>
-          <input id="search-field" type="search" class="search-field" value="" name="s" title="Search for:" />
-          <input type="submit" class="search-submit" value='Go' />
-        </form>
-      </div>
-    </section>
-    -->
-
-    <section id="seccions-2" class="widget widget_recent_entries">
-      <h2 class="widget-title">Sections</h2>
-      <ul>
-        {{ range .Site.Sections }}
-          <li>
-            <a href="">{{ . }}</a>
-          </li>
-        {{ end }}
-      </ul>
-    </section>
 
     <section id="recent-posts-2" class="widget widget_recent_entries">
-      <h2 class="widget-title">Recent Posts</h2>
+      <h2 class="widget-title">Contenido reciente</h2>
       <ul>
-        {{ range .Site.Pages}}
-          <li>
-            <a href="">{{ .Title }}</a>
-          </li>
+        {{ range first 5 .Site.Pages}}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
         {{ end }}
       </ul>
     </section>
+    
+    {{ partial "search.html" . }}
 
-    <!--
-    <section id="recent-comments-2" class="widget widget_recent_comments">
-      <h2 class="widget-title">Recent Comments</h2>
-      <ul id="recentcomments">
-        <li class="recentcomments">
-          <span class="comment-author-link">
-            <a href='http://example.com' rel='external nofollow' class='url'>A Commenter</a>
-          </span> on <a href="post_url">Post title</a>
-        </li>
-      </ul>
-    </section>
-    -->
-
-    <!--
-    <section id="categories-2" class="widget widget_categories">
-      <h2 class="widget-title">Categories</h2>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    <section id="seccions-2" class="widget widget_recent_entries">
+      <h2 class="widget-title">
+        <a href="/{{ $taxonomyname | urlize }}">{{ title $taxonomyname }}</a>
+      </h2>
+      
       <ul>
-        <li class="cat-item cat-item-2">
-          <a href="category url" >category name</a> (post count)
+        {{ range $key, $value := $taxonomy }}
+        <li>
+          <a href="/{{ $taxonomyname | urlize }}/{{$key}}">{{ $key }}</a>
         </li>
+        {{ end}}
       </ul>
     </section>
-    -->
+    {{ end }}    
 
-    <!--
-    <section id="archives-2" class="widget widget_archive">
-      <h2 class="widget-title">Archives</h2>
-      <ul>
-        <li><a href='month url'>Month year</a></li>
-      </ul>
-    </section>
-    -->
+    {{ partial "recentcomments.html" . }}
 
+    {{ partial "categories.html" . }}
+
+    {{ partial "archives.html" . }}
+    
     <section id="archives-3" class="widget widget_archive">
       <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
     </section>
   </aside>
-
 </div>

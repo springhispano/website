@@ -1,5 +1,5 @@
-name = "Hyde"
-license = "MIT"
+name = "Poet"
+license = "Apache 2"
 licenselink = "https://github.com/spf13/hyde/blob/master/LICENSE.md"
 description = "An elegant open source and mobile first theme"
 tags = ["blog", "company"]
@@ -9,9 +9,3 @@ min_version = 0.14
 [author]
     name = "spf13"
     homepage = "http://spf13.com"
-
-# If Porting existing theme
-[original]
-    author =  "mdo"
-    homepage = "http://markdotto.com/"
-    repo = "https://www.github.com/mdo/hyde"

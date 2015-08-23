@@ -1,0 +1,57 @@
+<div class="entry post publish author-drop-live-demo post-19 format-standard has-post-thumbnail category-fashion category-gaming post_tag-blogging post_tag-cooking post_tag-fashion post_tag-food">
+  <!-- featured-image -->
+  {{if isset .Params "featured_image" }}
+  {{ $featuredImage := index .Params "featured_image" }}
+  {{ with .Params.featured_text }}<span class="sticky-status">{{ . }}</span>{{ end }}
+  <div class='featured-image' style='background-image: url("{{ $featuredImage }}")' >
+    <a href="{{ .Permalink }}">
+      {{ .Title }}
+    </a>
+  </div>
+  {{end}}
+
+  <article>
+    <div class='post-header'>
+      <h1 class='post-title'>
+        <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a>
+      </h1>
+
+      <span class="post-meta">
+        Publicado por <a href="/author/{{if isset .Params "author_id" }}{{index .Params "author_id"}} {{else}}springhispano {{end}}">{{if isset .Params "author_name" }} {{ index .Params "author_name" }} {{else}} SpringHispano.org {{end}}</a> el {{ .Date.Format "Mon, 2 Jan 2006" }} 
+        <br>~ {{ .ReadingTime }} minutos de lectura
+      </span>
+    </div>
+
+    <div class="post-content">
+
+      {{ .Summary }}...
+      <p>
+        <a class="more-link" href="{{ .Permalink }}">Continuar leyendo →<span class="screen-reader-text">{{ .Title }}</span></a>
+      </p>         
+      
+    </div>
+
+    {{ with .Params.categories }}
+    <div class="post-categories">
+      <span>Publicado en:</span>
+      {{ range . }}
+      <a href="/categories/{{ . | urlize }}" title="Ver todos los contenido en {{.}}">{{.}}</a>
+      {{end}}
+      
+    </div>
+    {{end}}
+
+    {{ with .Params.tags }}
+    <div class="post-tags">
+      <ul>
+        {{ range . }}
+        <li>
+          <a href="/tags/{{ . | urlize }}" title="Ver todos los contenidos con el tag {{.}}">{{ . }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+  </article>
+</div>

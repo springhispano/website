@@ -1,12 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.Params.languageCode }}{{.}}{{else}}en-US{{end}}">
+
 {{ partial "head.html" . }}
-<body>
 
-{{ partial "sidebar.html" . }}
+<body id="poet" class="wordpress ltr en en-us child-theme multisite blog-44 y2015 m08 d23 h08 sunday logged-out error-404">
+  <!--skip to content link-->
+  <a class="skip-content" href="#main">Skip to content</a>
+  <div id="overflow-container" class="overflow-container">
+    <div class="max-width">
+      {{ partial "sidebar.html" . }}
 
-    <div class="content container">
-      <h1>404: Page not found</h1>
-        <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ .Site.BaseURL }}">Head back home</a> to try finding it again.</p>
+      <section id="main" class="main" role="main" style="min-height: 1665px;">
+        <div class="entry">
+          <article>
+            <div class="post-header">
+              <h1 class="post-title">404: Page Not Found</h1>
+            </div>
+            <div class="post-content">
+              Looks like nothing was found on this url.  Double-check that the url is correct.     
+            </div>
+            <!--div class="search-form-container">
+              <form role="search" method="get" class="search-form" action="https://www.competethemes.com/poet-live-demo/">
+                <label class="screen-reader-text" for="search-field">Search</label>
+                <input id="search-field" type="search" class="search-field" value="" name="s" title="Search for:">
+                <input type="submit" class="search-submit" value="Go">
+              </form>
+            </div-->    
+          </article>
+        </div>
+      </section>
+
+      {{ partial "footer.html" . }}
     </div>
+  </div>
 
-  </body>
+  {{ partial "scripts.html" . }}
+
+</body>
 </html>

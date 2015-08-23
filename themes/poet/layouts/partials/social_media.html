@@ -1,0 +1,39 @@
+<div class='social-media-icons'>
+  <ul>
+    {{ with .Site.Params.github }}
+    <li>
+    <a class="github" target="_blank" href="http://github.com/{{.}}">
+        <i class="fa fa-github-square" title="Github"></i>
+      </a>
+    </li>
+    {{ end }}
+    {{ with .Site.Params.slack }}
+    <li>
+      <a class="slack" target="_blank" href="{{.}}">
+        <i class="fa fa-slack" title="Slack"></i>
+      </a>
+    </li>
+    {{ end }}
+    {{ with .Site.Params.twitter }}
+    <li>
+      <a class="twitter" target="_blank" href="http://twitter.com/{{.}}">
+        <i class="fa fa-twitter-square" title="Twitter"></i>
+      </a>
+    </li>
+    {{end}}
+    {{ with .Site.Params.facebook }}
+    <li>
+      <a class="facebook" target="_blank" href="{{.}}">
+        <i class="fa fa-facebook-square" title="Facebook"></i>
+      </a>
+    </li>
+    {{end}}
+    {{ with .Site.Params.vimeo }}
+    <li>
+      <a class="vimeo" target="_blank" href="https://vimeo.com/{{.}}">
+        <i class="fa fa-vimeo-square" title="Vimeo"></i>
+      </a>
+    </li>
+    {{end}}
+  </ul>
+</div>
