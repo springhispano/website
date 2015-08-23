@@ -1,9 +1,12 @@
-+++
-date = "2015-08-14T14:25:41-05:00"
-draft = true
-title = "first"
-
-+++
+---
+date: 2015-08-14
+draft: true
+title: first post
+featured_image: https://www.competethemes.com/poet-live-demo/wp-content/uploads/sites/44/2015/01/river-market.jpg
+author:
+  id: domix
+  name: Domingo Suarez Torres
+---
 
 ## Hola
 
