@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ with .Site.Params.languageCode }}{{.}}{{else}}en-US{{end}}">
 
 {{ partial "head.html" . }}
 
@@ -13,8 +13,8 @@
       {{ partial "posts.html" . }}
 
       {{ partial "footer.html" . }}
-    </div><!-- .max-width -->
-  </div><!-- .overflow-container -->
+    </div>
+  </div>
 
   {{ partial "scripts.html" . }}
 

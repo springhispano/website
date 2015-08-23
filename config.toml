@@ -1,8 +1,13 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "es-mx"
+baseurl = "http://springhispano.org"
 title = "SpringHispano.org"
 theme = "poet"
 
 [params]
+  languageCode = "es-mx"
   tagline = "Spring Framework para la comunidad hispana"
+  github = "SpringHispano"
+  slack = "http://slack.springhispano.org"
   twitter = "SpringHispano"
+  facebook = "https://www.facebook.com/groups/155793886960/"
+  vimeo = "springhispano"
+  avatar = "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-07-18/7876620567_01501074b2903b39ace5_68.jpg"
