@@ -17,7 +17,7 @@
       </h1>
 
       <span class="post-meta">
-        Publicado por <a href="/author/{{if isset .Params "author_id" }}{{index .Params "author_id"}} {{else}}springhispano {{end}}">{{if isset .Params "author_name" }} {{ index .Params "author_name" }} {{else}} SpringHispano.org {{end}}</a> el <a href='https://www.competethemes.com/poet-live-demo/2015/02/'>{{ .Date.Format "Mon, 2 Jan 2006" }}</a> 
+        Publicado por <a href="/author/{{if isset .Params "author_id" }}{{index .Params "author_id"}} {{else}}springhispano {{end}}">{{if isset .Params "author_name" }} {{ index .Params "author_name" }} {{else}} SpringHispano.org {{end}}</a> el {{ .Date.Format "Mon, 2 Jan 2006" }} 
         <br>~ {{ .ReadingTime }} minutos de lectura
       </span>
     </div>

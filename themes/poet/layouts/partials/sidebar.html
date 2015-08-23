@@ -49,14 +49,16 @@
 
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
     <section id="seccions-2" class="widget widget_recent_entries">
-      <h2 class="widget-title">{{ $taxonomyname }}</h2>
-      <a href="/{{ $taxonomyname | urlize }}">
-        <h2 class="widget-title">{{ $taxonomyname }}</h2>
-      </a>
+      <h2 class="widget-title">
+        <a href="/{{ $taxonomyname | urlize }}">{{ title $taxonomyname }}</a>
+      </h2>
+      
       <ul>
+        {{ range $key, $value := $taxonomy }}
         <li>
-
+          <a href="/{{ $taxonomyname | urlize }}/{{$key}}">{{ $key }}</a>
         </li>
+        {{ end}}
       </ul>
     </section>
     {{ end }}    
