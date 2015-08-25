@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.Params.languageCode }}{{.}}{{else}}en-US{{end}}">
+
+{{ partial "head.html" . }}
+
+<body id="poet" class="wordpress ltr en en-us child-theme multisite blog-44 y2015 m08 d23 h08 sunday logged-out singular singular-post singular-post-44">
+  <!--skip to content link-->
+  <a class="skip-content" href="#main">Skip to content</a>
+  <div id="overflow-container" class="overflow-container">
+    <div class="max-width">
+      {{ partial "sidebar.html" . }}
+
+      <section id="main" class="main" role="main" style="min-height: 3381px;">
+        <div class="entry post publish author-drop-live-demo post-44 format-standard has-post-thumbnail category-cooking category-news post_tag-blogging post_tag-funny post_tag-new">
+          <article>
+            <div class="post-header">
+              <h1 class='post-title'>{{ .Title }}</h1>
+            </div>
+            
+            {{ $data := .Data }}
+            {{ range $key, $value := .Data.Terms.Alphabetical }}
+            <div class="post-categories">
+              <h1 id="title">
+                <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name }}</a> {{ $value.Count }}
+              </h1>              
+            </div>
+            {{end}}
+          </article>
+
+          {{ if and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
+          <h2>Comments</h2>
+          {{ partial "disqus" . }}
+          {{ end }}
+
+        </div>
+
+      </section>
+
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+
+  {{ partial "scripts.html" . }}
+
+</body>
+</html>
