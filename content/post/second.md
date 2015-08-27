@@ -10,7 +10,7 @@ Tags:
 date: 2015-08-16
 menu: main
 title: second
-featured_image: https://www.competethemes.com/poet-live-demo/wp-content/uploads/sites/44/2015/02/grand-central.png
+featured_image: /content/images/photo-1416230789844-1998de481fdc.jpeg
 author:
   id: domix
   name: Domingo Suarez Torres

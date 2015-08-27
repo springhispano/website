@@ -1,7 +1,7 @@
 ---
 date: 2015-08-14
 title: first post
-featured_image: https://www.competethemes.com/poet-live-demo/wp-content/uploads/sites/44/2015/01/river-market.jpg
+featured_image: /content/images/f7a44cdc.jpeg
 featured_text: Holaja
 author:
   id: domix
