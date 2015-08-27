@@ -65,12 +65,22 @@
 
 					<nav class="further-reading">
 						<div class="previous">
+							{{if .Next}}
 							<span>Previous Post</span>
-							<a href="https://www.competethemes.com/poet-live-demo/2015/02/01/the-tracks-theme-is-awesome/">Planes, Trains, Coffee &amp; NYC</a>
+							<a href="{{.Next.Permalink}}">{{.Next.Title}}</a>
+							{{ else }}
+							<span>No hay más</span>
+							<a href="/">Home</a>
+							{{end}}
 						</div>
 						<div class="next">
-							<span>No Newer Posts</span>
-							<a href="https://www.competethemes.com/poet-live-demo">Return to Blog</a>
+							{{if .Prev}}
+							<span>Next Post</span>
+							<a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a>
+							{{ else }}
+							<span>No hay más</span>
+							<a href="/">Home</a>
+							{{end}}
 						</div>
 					</nav>	
 
