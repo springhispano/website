@@ -61,6 +61,10 @@
 						</div>
 						{{ end }}
 
+						<div class="post-tags">
+							{{ template "_internal/disqus.html" . }}
+						</div>
+
 					</article>
 
 					<nav class="further-reading">
@@ -84,11 +88,7 @@
 						</div>
 					</nav>	
 
-					<section id="comments" class="comments">
-					<div class="comments-number">
-							<h3>Comments</h3>
-						</div>
-					{{ template "_internal/disqus.html" . }}
+					
 					<!--
 						<div class="comments-number">
 							<h3>Be First to Comment</h3>
