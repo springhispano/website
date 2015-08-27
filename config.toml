@@ -1,6 +1,7 @@
 baseurl = "http://beta.springhispano.org"
 title = "SpringHispano.org"
 theme = "poet"
+disqusShortname = "springhispano"
 
 [params]
   languageCode = "es-mx"
