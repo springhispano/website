@@ -60,7 +60,7 @@
 							</ul>
 						</div>
 						{{ end }}
-						{{ if and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
+						
 						<div class="post-content">
 							
 						</div>
@@ -68,7 +68,7 @@
 						<div class="post-tags">
 							{{ template "_internal/disqus.html" . }}
 						</div>
-						{{ end }}
+						
 
 					</article>
 
