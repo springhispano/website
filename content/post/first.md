@@ -16,10 +16,33 @@ Como ven esto
 * foo
 * bar 
 
+
 ```java
 
+public class Demo {
+  
+}
+
 System.out.println("Hola Mundo");
+
 ```
+
+
+
+```groovy
+
+println "Hola"
+```
+
+
+```go
+
+var a string
+var b string
+var c string
+var d string
+```
+
 
 Asi de fácil
 
