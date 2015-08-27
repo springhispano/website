@@ -84,11 +84,28 @@
 						</div>
 					</nav>	
 
+					<section id="comments" class="comments">
+					<div class="comments-number">
+							<h3>Comments</h3>
+						</div>
+					{{ template "_internal/disqus.html" . }}
+					<!--
+						<div class="comments-number">
+							<h3>Be First to Comment</h3>
+						</div>
+						<ol class="comment-list"></ol>
+						<div id="respond" class="comment-respond">
+							<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/?p=14#respond" style="display:none;">Cancel reply</a></small></h3>
+							{{ if and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
+							<h2>Comments</h2>
+							{{ template "_internal/disqus.html" . }}
+							{{ end }}		
+						</div>
+						-->
+					</section>
 
-					{{ if and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
-					<h2>Comments</h2>
-					{{ partial "disqus" . }}
-					{{ end }}
+
+					
 
 				</div>
 
