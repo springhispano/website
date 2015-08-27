@@ -1,6 +1,7 @@
 baseurl = "http://springhispano.org"
 title = "SpringHispano.org"
 theme = "poet"
+RelativeURLs = true
 
 [params]
   languageCode = "es-mx"
