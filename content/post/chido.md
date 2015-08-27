@@ -3,7 +3,7 @@ date: 2015-08-15
 title: El chido
 author_id: domix
 author_name: Domingo Suárez Torres
-featured_text: Texto de la imagen
+featured_text: Texto de la imagen. Lo lograré
 Tags:
 - Development
 - java
