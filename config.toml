@@ -1,7 +1,6 @@
-baseurl = "http://springhispano.org"
+baseurl = "http://beta.springhispano.org"
 title = "SpringHispano.org"
 theme = "poet"
-RelativeURLs = true
 
 [params]
   languageCode = "es-mx"
