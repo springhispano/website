@@ -1,317 +1,47 @@
 ---
 Categories: 
-- Development
-- GoLang
 - Post
 Description: Segundo por
 Tags:
-- Development
-- golang
-date: 2015-08-16
-menu: main
-title: second
+- anuncio
+- comunidad
+date: 2015-08-27
+title: Nuevo camino
+url: /post/nuevo-camino
 featured_image: /content/images/photo-1416230789844-1998de481fdc.jpeg
-author:
-  id: domix
-  name: Domingo Suarez Torres
+author_id: domix
+author_name: Domingo Suárez Torres
 ---
 
 
-## Segundo post
+## Retomando un nuevo camino
 
-Como ven esto
+Pues durante meses hemos estado fuera de linea. Debido a cambios de servidor y luego a ataques a el CMS (Drupal). 
 
-* demo
-* foo
-* bar 
+Ahora estamos con una nueva forma de publicar contenido, usamos [Hugo][1]. Así que todo el contenido en el futuro será generado de forma estatica, muy rápido para el servidor y mucho más segura.
 
-```java
+En el sitio anterior había ya mucho contenido, ese lo iremos migrando poco a poco, es un gran trabajo. Paciencia por favor.
 
+¿Que tal un poco de Java?
+
+```java 
+
+Stream.of(1, 2, 3, 4, 5);
 System.out.println("Hola Mundo");
+```
+
+¿o Groovy?
+
+```groovy
+
+def lista = [1, 2, 3, 4, 5]
+
+lista.each {
+  println it
+}
 ```
 
 Asi de fácil
 
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
 
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
-
-
-lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
-vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
-gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
-dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
-eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
-sea takimata sanctus est lorem ipsum dolor sit amet
-duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
-et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
-amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore magna aliquam erat volutpat
-ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
-lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
-dolor in hendrerit in vulputate velit esse molestie consequat vel illum
-dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-feugait nulla facilisi
-nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
+[1]: http://www.gohugo.io
