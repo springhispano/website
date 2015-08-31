@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
 
-dest='/www/springhispano.org'
+baseDir='/www'
+env=''
+#dest="$baseDir/springhispano.org"
+hugoParams=''
 
-while getopts ":e:" opt; do
+while getopts ":b:e:p:" opt; do
   case $opt in
+    b)
+      baseDir=$OPTARG
+      ;;
     e)
-      #echo "-e was triggered, Parameter: '$OPTARG'" >&2
-      dest="/www/$OPTARG.springhispano.org"
+      env="$OPTARG."
+      ;;
+    p)
+      hugoParams=$hugoParams"$OPTARG "
       ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
@@ -19,7 +27,8 @@ while getopts ":e:" opt; do
   esac
 done
 
+dest="$baseDir/$env""springhispano.org"
 
 echo "Deploying website to $dest"
 
-./build.sh && rsync -avzhe ssh --delete --delete-after ./public $dest
+./build.sh  $hugoParams && rsync -avzhe ssh --delete --delete-after ./public $dest

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-rm -rf public && hugo --verbose
+echo "Building site with params $@"
+rm -rf public && hugo "$@"  --verbose
