@@ -29,7 +29,7 @@ En el sitio anterior había ya mucho contenido, ese lo iremos migrando poco a po
 ```java
 
 Stream.of(1, 2, 3, 4, 5);
-System.out.println("Hola Mundo");
+System.out.println("Hola Mundo"); System.out.println("Hola Mundo");
 ```
 
 ¿o Groovy?
