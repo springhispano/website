@@ -6,7 +6,7 @@ disqusShortname = "springhispano"
 [params]
   languageCode = "es-mx"
   forkGitHubUrl = "https://github.com/springhispano/website"
-  tagline = "El ecosistema Spring para la comunidad hispana"
+  tagline = "El ecosistema Spring en tu idioma"
   github = "SpringHispano"
   slack = "http://slack.springhispano.org"
   twitter = "SpringHispano"
