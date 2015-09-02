@@ -6,7 +6,7 @@ keywords: []
 title: SpringHispano.org
 ---
 
-<div id="site-avatar" class="site-avatar" style="background-image: url(&quot;https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-07-18/7876620567_01501074b2903b39ace5_68.jpg&quot;)">
+<div class="author-avatar" style="background-image: url(&quot;https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-07-18/7876620567_01501074b2903b39ace5_68.jpg&quot;)">
 </div>
 
 La comunidad Hispana sobre el ecosistema Spring.
