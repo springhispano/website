@@ -1,14 +1,14 @@
 ---
 Categories: 
-  - Post
+- Post
 Description: Segundo por
-Tags: 
-  - anuncio
-  - comunidad
-date: {}
+Tags:
+- anuncio
+- comunidad
+date: 2015-08-27
 title: Nuevo camino
-url: "/post/nuevo-camino"
-featured_image: "/content/images/photo-1416230789844-1998de481fdc.jpeg"
+url: /post/nuevo-camino
+featured_image: /content/images/photo-1416230789844-1998de481fdc.jpeg
 author_id: domix
 author_name: Domingo Suárez Torres
 published: true
@@ -26,7 +26,7 @@ En el sitio anterior había ya mucho contenido, ese lo iremos migrando poco a po
 
 ¿Que tal un poco de Java?
 
-```java 
+```java
 
 Stream.of(1, 2, 3, 4, 5);
 System.out.println("Hola Mundo");
@@ -43,7 +43,7 @@ lista.each {
 }
 ```
 
-```json
+```javascript
 
 {
   "name": "some attribute",
