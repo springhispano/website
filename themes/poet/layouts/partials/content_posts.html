@@ -1,4 +1,4 @@
-{{ range first 10 .Data.Pages }}
+{{ range first 10 (where .Data.Pages "Section" "post") }}
 {{ .Render "summary" }}
 {{ end }}
 

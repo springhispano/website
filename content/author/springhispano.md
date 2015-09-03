@@ -1,8 +1,7 @@
 ---
-categories: []
+Section: author
 date: 2015-04-13T14:06:19-05:00
 description: ""
-keywords: []
 title: SpringHispano.org
 ---
 

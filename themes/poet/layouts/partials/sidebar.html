@@ -39,7 +39,7 @@
     <section id="recent-posts-2" class="widget widget_recent_entries">
       <h2 class="widget-title">Contenido reciente</h2>
       <ul>
-        {{ range first 5 .Site.Pages}}
+        {{ range first 5 (where .Site.Pages "Section" "post")}}
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>

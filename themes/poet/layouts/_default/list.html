@@ -1,16 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.Params.languageCode }}{{.}}{{else}}en-US{{end}}">
+
 {{ partial "head.html" . }}
-<body class="{{ .Site.Params.themeColor }}">
 
-{{ partial "sidebar.html" . }}
+<body id="poet" class="wordpress ltr en en-us child-theme multisite blog-44 y2015 m08 d23 h01 sunday logged-out plural home blog">
+  <!--skip to content link-->
+  <a class="skip-content" href="#main">Skip to content</a>
+  <div id="overflow-container" class="overflow-container">
+    <div class="max-width">
+      {{ partial "sidebar.html" . }}
 
-  <div class="content container">
-    <ul class="posts">
-        {{ range .Data.Pages }}
-        <li>
-          <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
-        </li>
-        {{ end }}
-    </ul>
+      {{ partial "posts.html" . }}
+
+      {{ partial "footer.html" . }}
+    </div>
   </div>
+
+  {{ partial "scripts.html" . }}
+
 </body>
 </html>
