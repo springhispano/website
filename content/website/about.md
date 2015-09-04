@@ -19,4 +19,4 @@ Esta comunidad nacío en marzo de 2006, gracias al apoyo de [Isidoro Treviño de
 
 [1]: https://www.linkedin.com/in/chololo
 [2]: https://www.linkedin.com/in/xuxoramos
-[2]: https://www.linkedin.com/in/domix
+[3]: https://www.linkedin.com/in/domix
