@@ -6,62 +6,47 @@ Description: Segundo por
 Tags:
 - anuncio
 - comunidad
-date: 2015-08-27
-title: Nuevo camino
-url: /post/nuevo-camino
+date: 2015-09-03
+title: Retomando el camino
+url: /post/retomando-el-camino
 featured_image: /content/images/photo-1416230789844-1998de481fdc.jpeg
+featured_text: Avanzando el camino
 author_id: domix
 author_name: Domingo Suárez Torres
 published: true
 ---
 
+## Retomando el camino de nuevo 
 
+Pues sin duda [Spring][1] sigue siendo un fuerte jugador en la industria Java. En los últimos años hemos visto como [Pivotal][2] sigue desarrollando fuertemente un ecosistema alrededor de Spring.
 
-## Retomando un nuevo camino
+> No queremos quedarnos atrás.
 
-Pues durante meses hemos estado fuera de linea. Debido a cambios de servidor y luego a ataques a el CMS (Drupal). 
+El hecho es que durante meses hemos estado fuera de linea. Debido a cambios de servidor y luego a ataques al CMS (Drupal), ya habiamos prometido relanzar el sitio y fallamos, bueno el [domix][3]  falló.
 
-Ahora estamos con una nueva forma de publicar contenido, usamos [Hugo][1]. Así que todo el contenido en el futuro será generado de forma estatica, muy rápido para el servidor y mucho más segura.
+Hicimos una promesa:
+
+![image](/2015/09/03/promesa.png)
+
+Y pues esta vez la estamos cumpliendo.
+
+## Compromiso
+
+Es dificil mantener una comunidad, esta comunidad ha estado en linea desde marzo de 2006, con muchas altas y bajas. Sin duda esta vez vamos a intentar mantenernos arriba mucho más tiempo.
+
+Ahora estamos con una nueva forma de publicar contenido, usamos [Hugo][4]. Así que todo el contenido en el futuro será generado de forma estatica, muy rápido para el servidor y mucho más segura.
 
 En el sitio anterior había ya mucho contenido, ese lo iremos migrando poco a poco, es un gran trabajo. Paciencia por favor.
 
-¿Que tal un poco de Java?
+## Invitación
 
-```java
+En breve publicaremos una lista con las cosas ue nos hacen falta, así como una guia para recibir ayuda si es que deseas ayudarnos.
 
-Stream.of(1, 2, 3, 4, 5);
-System.out.println("Hola Mundo"); System.out.println("Hola Mundo");
-```
+Vemos con mucho futuro el ecosistema de Spring y como hispano-hablantes tenemos una oportunidad muy buena de compartir conocimiento y aprender en el camino.
 
-¿o Groovy?
+> ¡Avancemos!
 
-```groovy
-
-def lista = [1, 2, 3, 4, 5]
-
-lista.each {
-  println it
-}
-```
-
-```javascript
-
-{
-  "name": "some attribute",
-  "size": 5
-}
-```
-
-> Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. 
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. 
-
->> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor 
-odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
-
->>> Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. 
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. 
-
-Asi de fácil
-
-
-[1]: http://www.gohugo.io
+[1]: http://spring.io
+[2]: http://pivotal.io
+[3]: http://twitter.com/domix
+[4]: http://www.gohugo.io
