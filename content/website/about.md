@@ -13,8 +13,10 @@ menu: main
 
 ## Historia
 
-Esta comunidad nacío en 2007, gracias al apoyo de Chololo, Jesús Ramos y Domingo Suárez Torres.
+Esta comunidad nacío en marzo de 2006, gracias al apoyo de [Isidoro Treviño de la Garza][1], [Jesús Ramos][2] y [Domingo Suárez Torres][3].
 
-## Vida
 
-Pues algo por acá.
+
+[1]: https://www.linkedin.com/in/chololo
+[2]: https://www.linkedin.com/in/xuxoramos
+[2]: https://www.linkedin.com/in/domix
