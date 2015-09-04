@@ -6,7 +6,7 @@ Description: Segundo por
 Tags:
 - anuncio
 - comunidad
-date: 2015-09-03
+date: 2015-09-04
 title: Retomando el camino
 url: /post/retomando-el-camino
 featured_image: /content/images/photo-1416230789844-1998de481fdc.jpeg
@@ -40,9 +40,11 @@ En el sitio anterior había ya mucho contenido, ese lo iremos migrando poco a po
 
 ## Invitación
 
-En breve publicaremos una lista con las cosas ue nos hacen falta, así como una guia para recibir ayuda si es que deseas ayudarnos.
+En breve publicaremos una lista con las cosas que nos hacen falta, así como una guia para recibir ayuda si es que deseas ayudarnos.
 
 Vemos con mucho futuro el ecosistema de Spring y como hispano-hablantes tenemos una oportunidad muy buena de compartir conocimiento y aprender en el camino.
+
+De igual manera hay algo de contenido nuevo que iremos subiendo, el contenido anterior será migrado paulatinamente.
 
 > ¡Avancemos!
 
