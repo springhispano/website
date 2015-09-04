@@ -11,7 +11,7 @@ h2 {
 .loop-pagination h2,
 .site-title,
 h3 {
-    font-size: 1.3125em;
+    font-size: 1.1125em;
     line-height: 1.143
 }
 .comment-footer a,
@@ -349,7 +349,7 @@ a img {
 }
 .main-sidebar {
     position: relative;
-    padding: 0.5em 7.4074%;
+    padding: 0.5em 3.4074%;
     background: #27292b;
     color: #fff
 }
@@ -402,13 +402,24 @@ a img {
     height: 0
 }
 .title-container {
-    float: left
+    float: left;
+    position: relative;
+        height: 48px;
+width: 260px;
 }
 .site-avatar {
-    display: none
+    display: block;
+        float: left;
+        margin-right: .15em;
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover
 }
 .site-title {
-    line-height: 36px
+    line-height: 1
 }
 .site-title a {
     text-decoration: none
@@ -422,7 +433,9 @@ a img {
     max-width: 200px
 }
 .tagline {
-    display: none
+    display: block;
+        color: #ccc;
+        margin: 0
 }
 .social-media-icons {
     max-height: 0;
@@ -509,7 +522,8 @@ a img {
     }
     .title-container {
         position: relative;
-        height: 48px
+        height: 48px;
+        width: 275px;
     }
     .title-container .container {
         position: relative;

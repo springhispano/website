@@ -17,7 +17,8 @@
       </h1>
 
       <span class="post-meta">
-        Publicado por <a href="/author/{{if isset .Params "author_id" }}{{index .Params "author_id"}} {{else}}springhispano {{end}}">{{if isset .Params "author_name" }} {{ index .Params "author_name" }} {{else}} SpringHispano.org {{end}}</a> el {{ .Date.Format "Mon, 2 Jan 2006" }} 
+        Publicado el {{ .Date.Format "Mon, 2 Jan 2006" }}
+        <br>por <a href="/author/{{if isset .Params "author_id" }}{{index .Params "author_id"}} {{else}}springhispano {{end}}">{{if isset .Params "author_name" }} {{ index .Params "author_name" }} {{else}} SpringHispano.org {{end}}</a>
         <br>~ {{ .ReadingTime }} minutos de lectura
       </span>
     </div>
