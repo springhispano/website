@@ -1,0 +1,8 @@
+<!-- featured-image -->
+{{if isset .Params "featured_image" }}
+{{ $featuredImage := index .Params "featured_image" }}
+{{ with .Params.featured_text }}<span class="sticky-status">{{ . }}</span>{{ end }}
+
+<a href="{{ .Permalink }}"><img src="{{ $featuredImage }}" class="featured-image" alt="{{ .Title }}"></a>
+
+{{end}}

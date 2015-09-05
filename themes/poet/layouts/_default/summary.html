@@ -1,10 +1,6 @@
 <div class="entry post publish author-drop-live-demo post-19 format-standard has-post-thumbnail category-fashion category-gaming post_tag-blogging post_tag-cooking post_tag-fashion post_tag-food">
-  <!-- featured-image -->
-  {{if isset .Params "featured_image" }}
-  {{ $featuredImage := index .Params "featured_image" }}
-  {{ with .Params.featured_text }}<span class="sticky-status">{{ . }}</span>{{ end }}
-  <img src="{{ $featuredImage }}" class="featured-image" alt="{{ .Title }}">
-  {{end}}
+
+{{ partial "featured_image.html" . }}  
 
   <article>
     <div class='post-header'>
