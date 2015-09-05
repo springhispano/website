@@ -21,6 +21,13 @@
       </a>
     </li>
     {{end}}
+    {{ with .Site.Params.googleplus }}
+    <li>
+      <a class="googleplus" target="_blank" href="{{.}}">
+        <i class="fa fa-google-plus-square" title="Google+"></i>
+      </a>
+    </li>
+    {{end}}
     {{ with .Site.Params.facebook }}
     <li>
       <a class="facebook" target="_blank" href="{{.}}">
