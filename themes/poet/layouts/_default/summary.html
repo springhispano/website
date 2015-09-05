@@ -3,11 +3,7 @@
   {{if isset .Params "featured_image" }}
   {{ $featuredImage := index .Params "featured_image" }}
   {{ with .Params.featured_text }}<span class="sticky-status">{{ . }}</span>{{ end }}
-  <div class='featured-image' style='background-image: url("{{ $featuredImage }}")' >
-    <a href="{{ .Permalink }}">
-      {{ .Title }}
-    </a>
-  </div>
+  <img src="{{ $featuredImage }}" class="featured-image" alt="{{ .Title }}">
   {{end}}
 
   <article>
