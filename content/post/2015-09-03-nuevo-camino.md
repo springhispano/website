@@ -9,7 +9,7 @@ Tags:
 date: 2015-09-04
 title: Retomando el camino
 url: /post/retomando-el-camino
-featured_image: /content/images/photo-1416230789844-1998de481fdc.jpeg
+featured_image: /2015/09/03/camino.jpg
 featured_text: Avanzando el camino
 author_id: domix
 author_name: Domingo Suárez Torres
