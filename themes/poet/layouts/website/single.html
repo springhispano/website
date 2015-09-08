@@ -13,16 +13,7 @@
       <section id="main" class="main" role="main" style="min-height: 3381px;">
         <div class="entry post publish author-drop-live-demo post-44 format-standard has-post-thumbnail category-cooking category-news post_tag-blogging post_tag-funny post_tag-new">
           
-          <!-- featured-image -->
-          {{if isset .Params "featured_image" }}
-          {{ $featuredImage := index .Params "featured_image" }}
-          {{ with .Params.featured_text }}<span class="sticky-status">{{ . }}</span>{{ end }}
-          <div class='featured-image' style='background-image: url("{{ $featuredImage }}")' >
-            <a href="{{ .Permalink }}">
-              {{ .Title }}
-            </a>
-          </div>
-          {{end}}
+          {{ partial "featured_image.html" . }}  
 
           <article>
             <div class="post-header">
@@ -62,7 +53,7 @@
             {{ end }}
             
             <div class="post-tags">
-              {{ template "_internal/disqus.html" . }}
+              {{ partial "disqus.html" . }}
             </div>
           </article>
           
