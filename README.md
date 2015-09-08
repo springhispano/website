@@ -19,11 +19,11 @@ También empezamos a usar [Disqus][6] para los comentarios.
 3. En la raiz del proyecto en una terminal ejecuta:
 
     ```bash
-    rm -rf public && hugo server --watch --verbose 
+    rm -rf public && hugo server --watch --verbose
     ```
-    
+
     Tambien puedes ejecutar el siguiente _shell script_:
-    
+
     ```bash
     ./run.sh
     ```
@@ -32,23 +32,23 @@ También empezamos a usar [Disqus][6] para los comentarios.
 
 
 ## Como crear una nueva entrada
- 
+
  1. Tener instalado [Hugo][1]
  2. En la raiz del proyecto en una terminal ejecuta:
- 
- 
+
+
     ```bash
     hugo new post/el-nombre-de-tu-nueva-entrada.md
     ```
-    
+
     > Es importante que el archivo termine con la extensión __.md__
-    
+
  3. El archivo de tu entrada se localizara en:
 
    ```
    ./content/post/el-nombre-de-tu-nueva-entrada.md
    ```    
-   
+
    Ahora  puedes editarlo usando [Markdown][3]
 
  4. Ejecutar el sitio, revisa la sección anterior. Ya debería estar disponible tu nueva entrada.
@@ -61,13 +61,13 @@ También empezamos a usar [Disqus][6] para los comentarios.
    ```
    {año}-{mes}-{dia}-{nombre}.md
    ```    
-   
+
    Ejemplos:
 
    ```
    2015-09-03-mi-nueva-entrada.md
    ```   
-   
+
    > el nombre del archivo se sugiere que sea breve, pero que indique claramente sobre que se trata.
 
 - Se recomienda que el nombre del archivo no incluya caracteres que no sean _URL encoded_
@@ -81,7 +81,7 @@ Un _feature_ muy interesante de Hugo es el [_Front Matter_][5], Hugo agrega al i
   ```yaml
   ---
   Section: post
-  Categories: 
+  Categories:
   - Post
   Description: Segundo por
   date: 2015-09-04
@@ -89,13 +89,13 @@ Un _feature_ muy interesante de Hugo es el [_Front Matter_][5], Hugo agrega al i
   url: /post/retomando-el-camino
   ---
   ```
-  
+
 Se debe agregar la información sobre el _post_ lo más detallada posible. Un ejemplo de ello:
 
   ```yaml
   ---
   Section: post
-  Categories: 
+  Categories:
   - Post
   Description: Segundo por
   Tags:
@@ -129,7 +129,12 @@ En el _front matter_ se debe poner la información de la URL usando el siguiente
   ```
   url: /post/retomando-el-camino
   ```
-  
+
+## Referencias
+
+### Como mantener actualizado tu fork:
+Si tienes duda sobre como actualizar tu fork del repositorio original, sigue esta [guía][8]
+
  [1]: http://gohugo.io
  [2]: http://localhost:1313/
  [3]: http://daringfireball.net/projects/markdown/
@@ -137,3 +142,4 @@ En el _front matter_ se debe poner la información de la URL usando el siguiente
  [5]: http://gohugo.io/content/front-matter/
  [6]: https://disqus.com/
  [7]: http://spring.io
+ [8]: http://stackoverflow.com/a/3903835
