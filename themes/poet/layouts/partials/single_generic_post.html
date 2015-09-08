@@ -1,0 +1,47 @@
+{{ partial "featured_image.html" . }}  
+
+<article>
+  <div class="post-header">
+    <h1 class='post-title'>
+      <a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a>
+    </h1>
+
+    <span class="post-meta">
+      Publicado el {{ .Date.Format "Mon, 2 Jan 2006" }}
+      <br>por <a href="/author/{{if isset .Params "author_id" }}{{index .Params "author_id"}} {{else}}springhispano {{end}}">{{if isset .Params "author_name" }} {{ index .Params "author_name" }} {{else}} SpringHispano.org {{end}}</a>
+      <br>~ {{ .ReadingTime }} minutos de lectura
+    </span>
+  </div>
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  
+  {{ with .Params.categories }}
+  <div class="post-categories">
+    <span>Publicado en:</span>
+    {{ range . }}
+    <a href="/categories/{{ . | urlize }}" title="Ver todos los contenido en {{.}}">{{.}}</a>
+    {{end}}
+
+  </div>
+  {{end}}
+
+  {{ with .Params.tags }}
+  <div class="post-tags">
+    <ul>
+      {{ range . }}
+      <li>
+        <a href="/tags/{{ . | urlize }}" title="Ver todos los contenidos con el tag {{.}}">{{ . }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+  
+  <div class="post-content">
+    
+  </div>
+  <div class="post-tags">
+    {{ partial "disqus.html" . }}
+  </div>
+</article>
