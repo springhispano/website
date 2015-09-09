@@ -5,6 +5,7 @@ date: 2015-09-08
 title: Como contribuir al sitio
 url: /como-contribuir
 featured_image: /2015/09/08/team.jpg
+featured_image_source: https://picjumbo.com/hard-work-with-a-book/
 featured_text: Contribuir
 author_id: domix
 author_name: Domingo Suárez Torres
