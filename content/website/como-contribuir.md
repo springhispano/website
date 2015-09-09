@@ -13,7 +13,9 @@ published: true
 menu: main
 ---
 
-**Si deseas participar, has _fork_, agrega tu entrada y manda un _Pull Request_.**
+## Como contribuir
+
+**Si deseas participar, has _fork_ [de este repositorio][9], agrega tu entrada y manda un _Pull Request_.**
 
 ## Como correr el sitio en tu computadora
 
@@ -107,10 +109,9 @@ Se debe agregar la información sobre el _post_ lo más detallada posible. Un ej
   - anuncio
   - comunidad
   date: 2015-09-04
-  title: Como contribuir
+  title: Retomando el camino
   url: /post/retomando-el-camino
   featured_image: /2015/09/03/camino.jpg
-  featured_image_reference: https://picjumbo.com/hard-work-with-a-book/
   featured_text: Avanzando el camino
   author_id: domix
   author_name: Domingo Suárez Torres
@@ -149,3 +150,4 @@ Si tienes duda sobre como actualizar tu fork del repositorio original, sigue est
  [6]: https://disqus.com/
  [7]: http://spring.io
  [8]: http://stackoverflow.com/a/3903835
+ [9]: https://github.com/springhispano/website

@@ -8,7 +8,7 @@ Ahora el sitio de construye con [Hugo][1] que realmente necesita archivos [Markd
 
 También empezamos a usar [Disqus][6] para los comentarios.
 
-**Si deseas participar, has _fork_, agrega tu entrada y manda un _Pull Request_.**
+**Si deseas participar, has _fork_ [de este repositorio][9], agrega tu entrada y manda un _Pull Request_.**
 
 ## Como correr el sitio en tu computadora
 
@@ -143,3 +143,4 @@ Si tienes duda sobre como actualizar tu fork del repositorio original, sigue est
  [6]: https://disqus.com/
  [7]: http://spring.io
  [8]: http://stackoverflow.com/a/3903835
+ [9]: https://github.com/springhispano/website
