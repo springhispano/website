@@ -69,7 +69,7 @@ Si usas alguna de estas herramientas te recomiendo ampliamente que uses SDKMAN.
 
 Les dejo aquí un video del uso de SDKMAN, espero les sea utíl.
 
-{{% vimeo 140038772 %}}
+{{% youtube EgH2J27lqRo %}}
 
 Saludos
 
