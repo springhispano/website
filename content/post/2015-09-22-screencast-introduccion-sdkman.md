@@ -44,7 +44,7 @@ Como podrán apreciar, hay para muchos lenguajes y entornos de desarrollo. La ca
 
 ## SDKMan
 
-En este caso particular, quisiera hablar sobre SDKMan, que antes era conocido como GVMTool, el cambio de nombre fue oficial el 17 de septiembre de 2015, porque GVMTool era el nombre corto para _Groovy enVironment Manager Tool_. Pero el autor lo diseño para que fuera agnóstico a Groovy, por ahora soporta:
+En este caso particular, quisiera hablar sobre [SDKMan][6], que antes era conocido como [GVMTool][6], el cambio de nombre fue oficial el 17 de septiembre de 2015, porque [GVMTool][6] era el nombre corto para _Groovy enVironment Manager Tool_. Pero el autor lo diseño para que fuera agnóstico a Groovy, por ahora soporta:
 
 * [Asciidoctorj][10]
 * [Crash][11]
@@ -61,13 +61,13 @@ En este caso particular, quisiera hablar sobre SDKMan, que antes era conocido co
 * [Spring Boot][21]
 * [VertX][22]
 
-Muchas de ellas no son parte del ecosistema Groovy, como _asciidoctorj_, _crash_, _SpringBoot_ ó _jbossforge_. Entonces SDK Manager es una herramienta mucho más genérica para administrar versiones.
+Muchas de ellas no son parte del ecosistema Groovy, como _asciidoctorj_, _crash_, _SpringBoot_ ó _jbossforge_. Entonces [SDK Manager][6] es una herramienta mucho más genérica para administrar versiones.
 
-Si usas alguna de estas herramientas te recomiendo ampliamente que uses SDKMAN.
+Si usas alguna de estas herramientas te recomiendo ampliamente que uses [SDKMAN][6].
 
 ## Demostración
 
-Les dejo aquí un video del uso de SDKMAN, espero les sea utíl.
+Les dejo aquí un video del uso de [SDKMAN][6], espero les sea utíl.
 
 {{% youtube EgH2J27lqRo %}}
 
