@@ -4,7 +4,7 @@ Categories:
 - Screencast
 Tags:
 - sdkman
-- sdkman-3.0.2
+- "sdkman-3.0.2"
 - gradle
 - video
 - vimeo
