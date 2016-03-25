@@ -1,0 +1,36 @@
+---
+Section: post
+Categories :
+- Post
+Tags :
+- Anuncio
+- Comunidad
+date : 2016-03-24
+title : ¡Springhispano cumple diez años!
+url: /post/diez-anios
+featured_image: /2016/03/24/diez.jpg
+featured_text: Diez años haciendo comunidad y andando un camino binario con muchos rumbos
+author_id: miguel-1mx
+author_name: Miguel Zúñiga González
+published: true
+---
+
+## ¡Springhispano cumple diez años!
+
+Cuando la gente dice «La tecnología avanza a pasos agigantados», ya ni reparamos en su implicación. Desde afuera, parece que las cosas «siempre han estado allí», y que Fortran, COBOL y LISP están muy lejanos, Java es muy empresarial (muy de señor) y Groovy, Python y Ruby, la alternativa «rebelde» (sigo preguntándome a qué se rebelan). Pareciera muy poco diez años, pero hemos visto, porque región 4, pasar de la programación _espagueti_ a la programación estructurada, al diseño orientado a objetos, a los patrones de diseño, a la programación extrema, al _refactoring_ y a las prácticas ágiles, con mayores o menores grados de éxito, en nuestros devenires entre proyectos, empresas y programadores, desarrolladores y hasta _líderes de proyecto_ y gente administrativa que dicen tener también algo qué decir.
+
+Si bien, hacia 2006 ya había surgido la primera versión del _framework_ Spring y hasta había tenido reconocimientos como _Jolt Awards_ y _Jax Innovation Awards_ habrían de pasar muchas, pero muchas cosas, dentro y alrededor del _framework_ por su gran avance respecto al modelo de programación reinante hasta entonces (quién recuerda la dulzura de los Enterprise JavaBeans "a manita"). Un objetivo conseguido y muy discutido desde su lanzamiento fue la integración con los estándares J2EE, a las herramientas comerciales con que se contaba al momento, pero sobre todo, técnicas que para la gente de Java en general eran poco, nada utilizadas o hasta desconocidas, y que ganaron una importancia enorme en muy poco tiempo, como la inversión de control y la programación orientada a aspectos. Entre su enorme adopción hasta convertirlo en un estándar _de facto_ permitió el surgimiento de comunidades como esta, la cual, permítanme decirlo, ha experimentado en carne viva la transformación de la forma de desarrollar _software_ y de cómo se relacionan los desarrolladores.
+
+Esta comunidad ha tenido diferentes etapas: desde el foro donde al principio se preguntaban cuestiones, desde lo básico hasta lo elemental, la inclusión de entradas con alcances generales y específicos de cierta complejidad, las reuniones, presenciar el surgimiento de Groovy, el ecosistema Grails, el dinamismo de Griffon y la versatilidad de Gradle, entre muchos, muchas otras tecnologías y de prácticas (lo que sea que esto último signifique).
+
+El desarrollo ágil también tuvo su recepción por estos lares. En las reuniones se hizo mucha conciencia sobre "detalles" como control de versiones, la convención sobre configuración y los patrones de diseño, porque se pudo valorar sus ventajas y sus limitaciones. Como con cualquier concepto en programación, se expusieron herramientas y prácticas de dan soluciones que aparecían repetidamente en diferentes contextos y comprendían puntos en común. De allí a importancia que los desarrolladores estén capacitados para identificar y aplicar los patrones cuando les sea posible.
+
+Esta identificación de elementos comunes va seguida de una abstracción, donde todas las partes comunes forman una sola solución. Esto, en buen cristiano, significa que dar muchas soluciones para la misma idea casi siempre conlleva errores en programación. El _framework_ Spring fue, ha sido y sigue siendo un lugar para poner en práctica estas soluciones comunes a problemas de diseño hacia el lenguaje de programación al cual sirven de apoyo, al tiempo que nos permiten identificar en nuestra práctica qué defectos realizamos y cómo podemos y nos podemos proporcionar mejores apoyos para resolver estos y los problemas que se nos presenten en nuestro desarrollo como profesionales.
+
+Por si este cambio radical fuera poco, esta comunidad en conjunto vio surgir los sitios de redes sociales y cómo se fueron inmiscuyendo en nuestra profesión. Mientras que los sociólogos decían entonces que tales sitios nos aislaban, redes como LinkedIn, Twitter y por supuesto Github, nos dieron posibilidad de conocer diferentes formas de hacer las cosas, nuevas maneras para trabajar de forma más eficiente y, dicho sea de paso, de reír, de compartir y de explorar. La explosión en el uso de las redes sociales quedó de manifiesto cuando, hacia 2011, se veía claramente que los miembros de la comunidad preferían compartir mediante las redes sociales que mediante el sitio de la comunidad, pues era mucho más rápido abrir la propia cuenta de Twitter, mencionar a @springhispano y enterarse de las novedades que surgían alrededor de las tecnologías que amamos.
+
+Mientras nos actualizábamos y pasábamos al modelo de redes en los teléfonos móviles, por años los únicos que escribían en nuestro sitio eran los cronistas de las reuniones y los _podcasts_ y _screencasts_ que en su momento fueron pioneros y nos hicieron soñar y hacer sentir cercanos, pues la comunidad tenía caras y había personas que daban lo mejor de sí, como desarrollador y como ser humano, en un formato amigable, sin convenciones pero con muchos contenidos y experiencias.
+
+Después, las ocupaciones y ganar _experience points_ en el mundo 1.0 nos llevó a escribir menos, pero los _bots_ estuvieron prontos y presurosos a aportar en el sitio. De allí que se congelara un tiempo, se cambiara el motor que lo generaba y resurgiera en este formato que ahora aprecian. Quien desde fuera viera la actividad en este sitio, diría que la comunidad simplemente se apartó, pero quienes lo compartimos desde dentro, sabemos que la gente está allí, las redes sociales están allí, solo es que necesitamos hacernos un espacio en esta nueva dinámica para dejar sentado que seguimos haciendo cosas, para que quienes vienen unos pasos después de nosotros, vean que estas soluciones están consolidadas, son muy maduras y que están allí para que saquen el mejor provecho, para evitar que cometan nuestros errores (o que los hagan a sabiendas de estar advertidos) y que sigamos creciendo todos.
+
+El ritmo de cambio en el desarrollo de _software_ se está acelerando todavía más, gracias a incrementos exponenciales en la comunicación durante la última década. Ni los medios masivos de difusión son lo que eran hace diez años, ni los satélites, teléfonos celulares, ni, por supuesto, el Internet. A medida que los desarrolladores de _software_ hemos crecido y nos hemos acostumbrado a equipos informáticos que duplican su velocidad de procesamiento cada 18 meses, por momentos se nos olvida que también nosotros debemos seguir evolucionando. En mayor o menor grado, hemos sido incapaces de mantener el ritmo de mantenernos al día, ni con el _hardware_ ni con las aplicaciones que siguen surgiendo. ¿Qué viene en los próximos años? Muy difícil es saberlo, pero estoy seguro que será mejor si lo seguimos compartiendo. Sea por las redes sociales, o mediante este sitio (el enlace para dar _fork_ está en la esquina superior derecha), lo importante es que nos mantengamos como comunidad. Mantengámonos en contacto.
