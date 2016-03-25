@@ -7,7 +7,7 @@ Tags :
 - Comunidad
 date : 2016-03-24
 title : ¡Springhispano cumple diez años!
-url: /post/diez-anios
+url: /2016/03/24/diez-anios
 featured_image: /2016/03/24/diez.jpg
 featured_text: Diez años haciendo comunidad y andando un camino binario con muchos rumbos
 author_id: miguel-1mx
